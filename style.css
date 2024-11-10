@@ -1,0 +1,210 @@
+/* Universal styles for margin, padding, and font */
+* {
+    margin: 0;
+    padding: 0;
+    
+    font-family: Arial, sans-serif;
+}
+
+/* Body background and text color with background image */
+
+
+/* Header styling */
+.head{
+    background-color:  rgb(205 97 32 / 80%); /* Transparent background */
+
+    color: white;
+    width: 99vw;
+    text-align: center;
+    position: sticky;
+    top: 0px;
+}
+
+.head h1 {
+    font-size: 51px;
+    margin-bottom: 9px;
+}
+
+.head p {
+    font-size: 20px;
+    
+   
+}
+.trend{
+    
+    background-color: #682929;
+    height: 1vh;
+    width: 99vw;
+   
+}
+
+.image img{
+   
+    width: 70vw;
+    height: 60vh;
+    margin: 10px 0px 0px 290px;
+
+}
+
+.book{
+   
+
+}
+
+.add{
+  
+    width: 98.3vw;
+    height: 23vh;
+    
+  
+}
+
+.add .ball{
+    margin: 15px 0px 0px 0px;
+    text-align: center;
+    font-size: 47px;
+    color: rgb(8, 5, 5) ;
+}
+
+.add .bat{
+    background-color: rgb(41, 39, 39);
+    font-size: 16px;
+    padding: 19px 94px 13px 76px;
+    border-radius: 8px;
+    height: 3vh;
+    width: 15vw;
+   margin: 10px 0px 0px 526px;
+   color: white;
+   
+}
+
+.add .login{
+    border: none;
+    color: whitesmoke;
+    background-color: rgb(202, 53, 53);
+    font-size: 20px;
+    padding: 11px 28px 11px 28px;
+    border-radius: 6px;
+    height: 5vh;
+    width: 8vw;
+    cursor: pointer;
+}
+
+.add .login:hover{
+    background-color:  rgba(177, 102, 59, 0.918);;
+}
+
+
+.famous{
+    width: 98.3vw;
+    height: 70vh;
+   
+}
+
+.famous .pop{
+    margin: 15px 0px 0px ;
+    text-align: center;
+    font-size: 60px;
+}
+
+.laptop{
+    display: flex;
+}
+
+.laptop .carbora{
+    
+    margin: 25px 0px 0px 30px;
+    
+}
+.rating{
+  
+    width :23vw;
+    height: 56vh;
+    margin: 0px 0px 0px 10px;
+    
+}
+
+.rating h2{
+    margin: 10px 0px 0px 30px;
+}
+
+.rating p{
+    margin: 10px 0px 0px 30px;
+    font-size: 20px;
+
+}
+
+.laptop .rating2{
+   
+    width :23vw;
+    height: 56vh;
+    margin: 0px 0px 0px 10px;
+
+}
+
+.rating2 .pot{
+    margin: 25px 0px 0px 30px;
+
+}
+
+.rating2 h2{
+    margin: 10px 0px 0px 30px;
+}
+
+.rating2 p{
+    margin: 10px 0px 0px 30px;
+    font-size: 20px;
+
+}
+
+.laptop .rating3{
+    width :23vw;
+    height: 56vh;
+    margin: 0px 0px 0px 10px;
+
+}
+
+.rating3 .dutch{
+    margin: 25px 0px 0px 30px;
+}
+
+.rating3 h2{
+    margin: 10px 0px 0px 30px;
+
+}
+
+.rating3 p{
+    margin: 10px 0px 0px 30px;
+    font-size: 20px;
+    
+}
+
+.laptop .rating4{
+    width :23vw;
+    height: 56vh;
+    margin: 0px 0px 0px 10px;
+
+}
+.rating4 .butter{
+    margin: 25px 0px 0px 30px;
+
+}
+
+.rating4 h2{
+    margin: 10px 0px 0px 30px;
+}
+.rating4 p{
+    margin: 10px 0px 0px 30px;
+    font-size: 20px;
+
+}
+
+footer{
+    width: 98.3vw;
+    height: 3vh;
+    margin-top: 30px;
+  
+
+    font-size: 20px;
+}
+/* Recipe addition form container */
