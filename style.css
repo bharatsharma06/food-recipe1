@@ -12,12 +12,15 @@
 /* Header styling */
 .head{
     background-color:  rgb(205 97 32 / 80%); /* Transparent background */
+  
 
     color: white;
     width: 99vw;
     text-align: center;
-    position: sticky;
-    top: 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
 }
 
 .head h1 {
@@ -29,6 +32,24 @@
     font-size: 20px;
     
    
+}
+
+.flex button{
+    background-color:  #989b9c;
+    padding: 10px;
+    width: 5vw;
+    height: 5vh;
+    margin: 10px;
+    font-size: 18px;
+    border-radius: 17px;
+    color: aliceblue;
+    
+}
+
+ .flex button:hover{
+    background-color: rgba(200, 219, 215, 0.788);
+    cursor: pointer;
+    color: black;
 }
 .trend{
     
